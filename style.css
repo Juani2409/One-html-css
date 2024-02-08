@@ -1,7 +1,9 @@
 body{
     background: #cccccc;
 }
-
+#banner{
+    width: 100%;
+}
 h1{
         text-align: center;  
 }
@@ -12,4 +14,9 @@ p{
 
 em strong{
     color:red;
+}
+
+
+.items{
+    font-style: italic;
 }
