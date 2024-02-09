@@ -1,5 +1,5 @@
 body{
-    background: #cccccc;
+  
 }
 #banner{
     width: 100%;
@@ -16,7 +16,17 @@ em strong{
     color:red;
 }
 
+.principal{
+    background: #cccccc;
+}
 
+.diferenciales{
+    background: white;
+}
+
+h2{
+    text-align: center;
+}
 .items{
     font-style: italic;
 }
