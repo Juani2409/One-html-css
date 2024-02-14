@@ -1,46 +1,47 @@
-.titulo-principal{
+.titulo-principal {
     padding-left: 30px;
 }
-#banner{
+
+#banner {
     width: 100%;
 }
 
-.titlo-centralizado{
-        text-align: center;  
-}
-
-p{
+.titlo-centralizado {
     text-align: center;
 }
 
-em strong{
-    color:red;
+p {
+    text-align: center;
 }
 
-.principal{
+em strong {
+    color: red;
+}
+
+.principal {
     background: #cccccc;
     padding: 20px;
 }
 
-.diferenciales{
+.diferenciales {
     background: white;
     padding: 30px;
 }
 
-
-.items{
+.items {
     font-style: italic;
 }
 
-ul{
+ul {
     display: inline-block;
     width: 20%;
     margin-right: 15%;
 }
 
-.img-diferencial{
-width: 50%;
+.img-diferencial {
+    width: 50%;
 }
-.lista-imagen{
-display: flex;
+
+.lista-imagen {
+    display: flex;
 }
