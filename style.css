@@ -18,10 +18,12 @@ em strong{
 
 .principal{
     background: #cccccc;
+    padding: 20px;
 }
 
 .diferenciales{
     background: white;
+    padding: 30px;
 }
 
 h2{
@@ -29,4 +31,17 @@ h2{
 }
 .items{
     font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.img-diferencial{
+width: 50%;
+}
+.lista-imagen{
+display: flex;
 }
