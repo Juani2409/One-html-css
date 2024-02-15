@@ -29,6 +29,11 @@ nav a{
     font-size: 22px;
 }
 
+nav a:hover{
+    color:#c78c79;
+    text-decoration: underline;
+}
+
 .productos{
 width: 940px;
 margin: 0 auto;
@@ -45,6 +50,18 @@ padding:50px;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color: #c78c79;
+    
+}
+.productos li:hover h2{
+   font-size: 33px;
+    
+}
+.productos li:active{
+    border-color: green;
 }
 
 .productos h2{
