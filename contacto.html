@@ -26,31 +26,31 @@
 
   <form>
     <label for="nombreapellido" >Nombre y Apellido</label>
-    <input type="text" id="nombreapellido" class="input-padron">
+    <input type="text" id="nombreapellido" class="input-padron" required>
 
     <label for="correoelectronico">Correo Electronico</label>
-    <input type="text" id="correoelectronico" class="input-padron">
+    <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
 
     <label for="telefono" >Telefono</label>
-    <input type="text" id="telefono" class="input-padron">
+    <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
 
     <label for="mensaje">Mensaje</label>
-    <textarea cols="60" rows="10" id="mensaje" class="input-padron"></textarea>
+    <textarea cols="60" rows="10" id="mensaje" class="input-padron" required></textarea>
 
     <div>
-    <p>Como le gustaria que lo contactemos</p>
+    <p>¿Como le gustaria que lo contactemos?</p>
     <label for="radio-email"> <input type="radio" value="email" name="contacto" id="radio-email">Email</label>
    
 
     <label for="radio-telefono">  <input type="radio" value="telefono" name="contacto" id="radio-telefono">Telefono</label>
   
 
-    <label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contacto" id="radio-whatsapp">WhatsApp</label>
+    <label for="radio-whatsapp"><input type="radio" value="whatsapp" name="contacto" id="radio-whatsapp" checked>WhatsApp</label>
     
 </div>
 
 <div>
-<p>En que horario prefiere ser atendido?</p>
+<p>¿En que horario prefiere ser atendido?</p>
 <select>
     <option>Mañana</option>
     <option>Tarde</option>
@@ -58,7 +58,7 @@
 </select>
 </div>
 
-<label class="checkbox"><input type="checkbox">Le gustaria recibir novedades de la Barberia Alura?</label>
+<label class="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la Barberia Alura?</label>
     <input type="submit" value="Enviar Formulario">
 
   </form>
