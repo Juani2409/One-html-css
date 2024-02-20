@@ -166,7 +166,7 @@ td, th{
 
 .principal{
     padding: 3em;
-    background: #feeeee;
+    background: #fefefe;
     width: 940px;
     margin: 0 auto;
 }
@@ -181,12 +181,6 @@ td, th{
     font-weight: bold;
 }
 
-.titulo-principal::before{
-    content: "[";
-}
-.titulo-principal::after{
-    content: "]";
-}
 p::first-line{
     font-style: italic;
 }
@@ -227,8 +221,7 @@ p::first-line{
  .diferenciales{
     padding: 3em 0;
     background:#888888;
-    width: 940px;
-    margin: 0 auto;
+    
  }
 
  .contenido-diferenciales{
