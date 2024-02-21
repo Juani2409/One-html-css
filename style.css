@@ -247,11 +247,12 @@ p::first-line{
 
  .img-diferencial{
     width: 60%;
-    
+    transition: 1s;
+    box-shadow: 10px 10px 30px 15px black;
  }
  .img-diferencial:hover{
     opacity: 0.3;
-    transition: 1s;
+   
  }
 
 
